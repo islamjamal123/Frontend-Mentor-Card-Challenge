@@ -1,0 +1,117 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}   
+
+body {
+    padding: 20px;
+    font-style: 16px;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    
+}
+
+h2, h4, h3, p {
+    margin: 0;
+}
+
+#card {
+    box-shadow: 0px 2px 16px -3px rgba(66, 68, 90, 1);
+    height: 420px;
+    width: 580px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.upperbox {
+    height: 42%;
+    width: 100%;
+    padding: 25px;
+}
+
+#lowerboxes {
+    height:58%;
+    width: 100%;
+    color: white;
+}
+
+.lowerbox1 {
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    width: 50%;
+    background-color: hsl(179, 62%, 43%);
+    padding: 30px;
+
+}
+
+.lowerbox2 {
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    width: 50%;
+    background-color: #218886;
+    padding: 30px;
+}
+
+.upperbox h2 {
+    padding-bottom: 20px;
+    color: hsl(179, 62%, 43%);
+}
+
+.upperbox h4 {
+    padding-bottom: 10px;
+    color: hsl(71, 73%, 54%);
+}
+.upperbox p {
+    color: #9DA4A8;
+}
+
+.lowerbox1 h4 {
+    padding-bottom: 15px;
+}
+
+.price, .permonth {
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.price {
+    font-size: 30px;
+}
+
+.permonth {
+    position: relative;
+    top: -7px;
+    margin-left: 10px;
+    opacity: 0.5
+}
+
+.lowerbox1 p {
+    padding-bottom: 20px;
+}
+
+button {
+    color: white;
+    background-color: lightgreen;
+    border: none; 
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: green;
+    transform: scale(1.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    opacity: 0.6
+}
+
