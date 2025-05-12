@@ -20,39 +20,27 @@ h2, h4, h3, p {
 
 #card {
     box-shadow: 0px 2px 16px -3px rgba(66, 68, 90, 1);
-    height: 420px;
-    width: 580px;
     border-radius: 7px;
     overflow: hidden;
 }
 
 .upperbox {
-    height: 42%;
     width: 100%;
     padding: 25px;
 }
 
 #lowerboxes {
-    height:58%;
     width: 100%;
     color: white;
 }
 
 .lowerbox1 {
-    display: inline-block;
-    vertical-align: top;
-    height: 100%;
-    width: 50%;
     background-color: hsl(179, 62%, 43%);
     padding: 30px;
 
 }
 
 .lowerbox2 {
-    display: inline-block;
-    vertical-align: top;
-    height: 100%;
-    width: 50%;
     background-color: #218886;
     padding: 30px;
 }
@@ -115,3 +103,32 @@ ul {
     opacity: 0.6
 }
 
+@media (min-width: 650px) {
+
+    #card {
+        height: 420px;
+        width: 580px;
+    }
+    
+    .upperbox {
+        height: 42%;
+        width: 100%;
+    }
+    
+    #lowerboxes {
+        display: flex;
+        height:58%;
+        width: 100%;
+    }
+    
+    .lowerbox1 {
+        height: 100%;
+        width: 50%;
+    
+    }
+
+    .lowerbox2 {
+        height: 100%;
+        width: 50%;
+    }
+}
